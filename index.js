@@ -1,4 +1,4 @@
-$('.accordion-tabs').on('click', (e) => {
+$('.accordion-buttons').on('click', (e) => {
   let tab = e.target.innerText
   let test = $('.accordion').children()
   for (let i = 0; i < test.length; i++) {

@@ -23,18 +23,31 @@ nav {
 }
 
 .accordion {
-  display: flex;
-  justify-content: center;
+   display: flex; 
+   justify-content: center;
 }
 
-.accordion-tabs {
-  border: none;
-}
-
-.active {
-  display: block;
+.accordion-body {
+  /* display: flex; */
+  /* position: absolute; */
 }
 
 .inactive {
   display: none;
+}
+
+.active {
+  padding-top: 40px;
+  margin-left: 30px;
+  position: relative;
+  z-index: -1;
+}
+
+p {
+  width: 300px;
+
+}
+
+.accordion-buttons {
+  position: absolute;
 }
