@@ -24,27 +24,41 @@ nav {
 
 .accordion-buttons {
   border: none;
-  width: 222px;
+  width: 22%;
   height: 40px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+}
 
+.main-wrapper {
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .accordion-menu {
-   text-align: center; 
+   display: flex;
+   justify-content: center; 
 }
 
 .accordion-body-wrapper {
   display: flex;
   justify-content: center;
+  padding-top: 14px;
 }
 
 .accordion-body {
    display: flex; 
-   width: 900px;
-   height: 300px;
+   /* align-items: center; */
+   width: 89%;
+   height: 450px;
+   margin-top: 15px;
+   /* border: 1px solid black; */
 }
 
 #pic-1 {
@@ -79,5 +93,18 @@ nav {
   text-align: center;
   padding-left: 30px;
   width: 700px;
-  line-height: 22px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 19px;
+}
+
+.text-break {
+  background-color: #000;
+  height: 1px;
 }
