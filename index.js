@@ -1,10 +1,10 @@
+$( document ).ready(() => {
+  let divs = document.querySelectorAll("[data-id]")
+  for (let i = 1; i < 4; i++) $(divs[i]).hide()
+})
+
 $('.accordion-buttons').on('click', (e) => {
-  let test = e.target.innerText
-  console.log(test)
-  if (test === 'Tab 1') {
-    
-  } else if (test === 'Tab 2') {
-    let shaka = document.querySelector("[data-id='Tab-2']")
-    console.log(shaka)
-  }
+  let clickedTab = e.target.innerText
+  let divs = document.querySelectorAll("[data-id]")
+  divs.forEach(div => div.dataset.id === clickedTab ? $(div).show() : $(div).hide())
 })
