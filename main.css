@@ -30,9 +30,14 @@ nav {
   margin-right: 1px;
 }
 
+.accordion-buttons:focus {
+  outline: none;
+}
+
 .main {
   display: flex;
   flex-direction: column;
+  margin-top: 35px;
 }
 
 .main-wrapper {
@@ -107,4 +112,64 @@ p {
 .text-break {
   background-color: #000;
   height: 1px;
+}
+
+.view-code-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.view-code {
+  margin-top: 100px;
+  border: none;
+  width: 300px;
+  font-size: 14px;
+  padding: 10px 50px;
+  color: #FFF;
+  background-color: #2F2235
+}
+
+.flexible {
+  display: flex;
+  justify-content: center;
+}
+
+.flexible-wrapper {
+  width: 90%;
+  display: flex;
+   justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+.double {
+  flex-grow: 2;
+  margin: 15px 15px;
+  width: 34%; 
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.wide-img {
+  height: 240px;
+  background-image: url("http://i.stack.imgur.com/yZlqh.png");
+  background-size: 100% 100%;
+}
+
+.single {
+  margin: 15px 15px;
+  width: 30%;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.card-break {
+  margin: 0;
+  background-color: #000;
+  height: 1px;
+}
+
+.mid-img {
+  height: 240px;
+  background-image: url("http://i.stack.imgur.com/yZlqh.png");
+  background-size: 100% 100%;
 }
