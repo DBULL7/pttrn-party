@@ -22,4 +22,62 @@ nav {
   width: 80%;
 }
 
+.accordion-buttons {
+  border: none;
+  width: 222px;
+  height: 40px;
+}
 
+.main {
+
+}
+
+.accordion-menu {
+   text-align: center; 
+}
+
+.accordion-body-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-body {
+   display: flex; 
+   width: 900px;
+   height: 300px;
+}
+
+#pic-1 {
+   height: 400px; 
+  width: 600px; 
+  background-image: url("http://mobile.wnd.com/files/2012/12/121221chucknorrisz.jpg");
+  background-size: 100% 100%;
+}
+
+#pic-2 {
+  height: 400px;
+  width: 600px; 
+  background-image: url("http://www.thefamouspeople.com/profiles/images/chuck-norris-4.jpg");
+  background-size: 100% 100%;
+}
+
+#pic-3 {
+  height: 400px;  
+  width: 600px; 
+  background-image: url("http://i.dailymail.co.uk/i/pix/2013/12/20/article-2527037-1A38F15900000578-980_306x423.jpg");
+  background-size: 100% 100%;
+}
+
+#pic-4 {
+  height: 400px;
+  width: 600px; 
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/64/27/f8/6427f82373a627586a1a3c954b2d27ee--chuck-norris-funny-humor.jpg");
+  background-size: 100% 100%;
+}
+
+.text {
+  text-align: center;
+  padding-left: 30px;
+  width: 700px;
+  line-height: 22px;
+}
